@@ -1,0 +1,20 @@
+TUTORIAL DE ENTREGA DO DINOCARD NO GITHUB
+
+1. Coloque README.md, requirements.txt e .gitignore na mesma pasta do main.py.
+2. Confira se as pastas de sprites, imagens, sons e demais recursos do jogo estão presentes.
+3. Antes de publicar, confira se não existem senhas, tokens, arquivos privados ou dados pessoais indevidos.
+4. Abra um terminal nessa pasta e teste:
+   python -m pip install -r requirements.txt
+   python main.py
+5. Entre em https://github.com e crie um novo repositório (exemplo: DinoCard).
+6. Se o repositório estiver vazio, abra o terminal na pasta do jogo e execute:
+   git init
+   git add .
+   git commit -m "Adiciona projeto DinoCard e documentacao"
+   git branch -M main
+   git remote add origin https://github.com/SEU-USUARIO/DinoCard.git
+   git push -u origin main
+7. Substitua SEU-USUARIO pelo seu usuario do GitHub. Se o repositorio ja tiver commits, os comandos de envio podem precisar de ajustes.
+8. Abra o repositorio no navegador, confirme que o README aparece e envie o link ao avaliador.
+
+OBSERVACAO: o requirements.txt atual lista Pygame, a dependencia informada. Antes da entrega final, confira se o jogo usa outras bibliotecas externas.
