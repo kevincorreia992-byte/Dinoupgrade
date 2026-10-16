@@ -23,6 +23,7 @@ O **DinoCard** é um jogo de dinossauro que combina progressão por pontuação,
 
 - Python 3
 - Pygame
+- Visual Studio Code
 
 ## Como executar
 
