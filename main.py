@@ -1,10 +1,4 @@
-"""Dino Upgrade — um loop principal, telas independentes e pausa real.
 
-Estados: titulo, identificacao, loja, configuracoes, jogando, boss,
-cartas, revelando, pausa, controles_pausa, confirmar_saida, morte, vitoria.
-O jogo só é atualizado em 'jogando' ou 'boss': pausar congela física,
-contadores, inimigos, projéteis, cartas e avanço dos biomas.
-"""
 import pygame
 from pathlib import Path
 import shutil
